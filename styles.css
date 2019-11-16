@@ -1,0 +1,40 @@
+:root {
+  --title-font-size: 3.3vmax;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #b5463f;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 70vw;
+  margin-bottom: 10vh;
+}
+
+.title {
+  font-size: var(--title-font-size);
+  color: #ffffff;
+}
+
+.social {
+  display: flex;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.insta {
+  margin-right: 3vw;
+}
