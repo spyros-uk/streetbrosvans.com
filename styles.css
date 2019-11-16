@@ -1,5 +1,6 @@
 :root {
-  --title-font-size: 3.3vmax;
+  --title-small: 1.8vmax;
+  --title-large: 2.3vmax;
 }
 
 body {
@@ -18,12 +19,14 @@ body {
 }
 
 .logo {
-  width: 70vw;
+  width: 50vw;
   margin-bottom: 10vh;
 }
 
 .title {
-  font-size: var(--title-font-size);
+  margin-bottom: 4vh;
+
+  font-size: var(--title-small);
   color: #ffffff;
 }
 
@@ -37,4 +40,18 @@ body {
 
 .insta {
   margin-right: 3vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 70vw;
+  }
+
+  .title {
+    font-size: var(--title-large);
+  }
+
+  .insta {
+    margin-right: 5vw;
+  }
 }
